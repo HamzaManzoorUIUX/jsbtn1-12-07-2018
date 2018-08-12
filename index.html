@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body class="">
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <a href="#" class="navbar-brand" id="logo">
+                A Simple Login Page
+            </a>
+            <button type="button" class="navbar-toggler" data-target="#navCollapse" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navCollapse">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" id="wellcomeG">
+                            Wellcome,Guest
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+        <h1 class="text-center my-5">User Details</h1>
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-7">
+                <div class="border p-5" id="result">
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5">
+                <div class="border p-5 d-flex flex-column justify-content-center" id="allButtons">
+                    <button class="btn btn-dark m-1" id="button1">
+                        Generate User List
+                    </button>
+                    <button class="btn btn-dark m-1" id="button2">
+                        Delete a user
+                    </button>
+                    <button class="btn btn-dark m-1" id="button3">
+                        Sign up
+                    </button>
+                    <button class="btn btn-dark m-1" id="button4">
+                        Sign in
+                    </button>
+                    <button class="btn btn-dark m-1" id="button5">
+                        Log out
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
